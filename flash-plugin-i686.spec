@@ -2,7 +2,7 @@ Summary:	Adobe Flash Player 10
 Name:		flash-plugin-i686
 Version:	10.2.153.1
 Release:	1%{?dist}
-Epoch:		5
+Epoch:		6
 
 Group:		Applications/Internet
 License:	Commercial
