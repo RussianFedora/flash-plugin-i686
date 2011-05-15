@@ -1,6 +1,6 @@
-Summary:	Adobe Flash Player 10
+Summary:	Adobe Flash Player 10.3
 Name:		flash-plugin-i686
-Version:	10.2.153.1
+Version:	10.3.181.14
 Release:	1
 Epoch:		6
 
@@ -16,13 +16,13 @@ ExclusiveArch:	i686
 Adobe Flash Player for i686
 
 %package -n flash-plugin
-Summary:	Adobe Flash Player 10
+Summary:	Adobe Flash Player 10.3
 Group:		Applications/Internet
 License:	Commercial
 ExclusiveArch:	i686
 
 %description -n flash-plugin
-Adobe Flash Player "Square" for i686
+Adobe Flash Player 10.3 for i686
 
 %prep
 %setup -q -c -T -a 0
@@ -49,6 +49,9 @@ rm -rf %{buildroot}
 %{_libdir}/mozilla/plugins/*.so
 
 %changelog
+* Sun May 15 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.3.181.14-1
+- update to 10.3.181.14
+
 * Fri Apr  8 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.2.153.1-1
 - update to 10.2.153.1
 
