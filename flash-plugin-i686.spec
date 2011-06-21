@@ -1,7 +1,7 @@
 Summary:	Adobe Flash Player 10
 Name:		flash-plugin-i686
-Version:	10.3.181.22
-Release:	1%{?dist}
+Version:	10.3.181.26
+Release:	1.R
 Epoch:		5
 
 Group:		Applications/Internet
@@ -49,7 +49,10 @@ rm -rf %{buildroot}
 %{_libdir}/mozilla/plugins/*.so
 
 %changelog
-* Wed Jun  8 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.3.181.22
+* Tue Jun 21 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.3.181.26-1.R
+- update to 10.3.181.26
+
+* Wed Jun  8 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.3.181.22-1
 - update to 10.3.181.22
 
 * Fri Apr  8 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 10.2.153.1-1
